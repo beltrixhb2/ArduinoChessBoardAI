@@ -9,7 +9,7 @@ To facilitate interaction with the game, we have created a display that, along w
 
 As we have mentioned before, with this project, we seek to provide a solution for those who love chess but, due to availability or other reasons, cannot find an opponent to play with. With this chess set, they can enjoy a good game whenever they want.
 
-## MODEL
+## MODEL
 
 Starting with the most visual aspect of our project, we will discuss the model:
 
@@ -21,7 +21,7 @@ As a final touch and to provide an elegant and functional appearance to the ches
 
 In summary, through this design and manufacturing process, we have managed to create a chess set that not only meets functional and technical requirements but also stands out for its comfort, aesthetics, and practicality in each game.
 
-## BUTTONS AND DISPLAY
+## BUTTONS AND DISPLAY
 
 Next, we will detail the code used in our project as briefly as possible. To facilitate the explanation, we will divide the code into three parts, taking into account the hardware they handle, plus the setup; however, there will be functions that employ elements corresponding to more than one part:
 
@@ -71,7 +71,7 @@ The main adaptations that we have had to implement in the code include the integ
 
  central unit. We have had to replace the way the module had to receive movement with a call to our own function, which would collect the input through the buttons and display the necessary information on the display screen. After each movement made by the artificial intelligence, we have added the call to another function that would print on the display screen and in the LED matrix the movement made. Additionally, we have located the points in the code where it was identified that an invalid movement had been made, a game had been won, or a game had been lost, and inserted the call to the functions that would show the relevant animation for each of them.
 
-## LED MATRIX
+## LED MATRIX
 
 For the management of the LED board, we have used different functions.
 To start and as an introduction, we start from a 16 x 16 LED board, so each square is equivalent to 4 LEDs (we planned it this way to make it more visual, since using only one LED per square would make the board too small).
